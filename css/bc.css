@@ -39,9 +39,9 @@ font-weight: bold;
 }
 header h1{
 font-size: 1.9rem;
-border: 3px solid rgba(6, 125, 133, 0.548) ;
-border-radius: 20px;
-padding: 12px;
+border: 3px solid rgba(6, 125, 133, 0.438) ;
+border-radius: 16px;
+padding: 11px;
 }
 
 .hamburger{
@@ -49,10 +49,10 @@ display: none;
 }
 
 .bar {
-width: 25px;
+width: 24px;
 height: 3px;
-margin: 5px;
-transition: all 0.7s ease-in-out;
+margin: 2.5px;
+transition: all 0.5s ease-in-out;
 }
 
 .navbar{
@@ -76,14 +76,8 @@ justify-content: space-between;
 font-size: 1.2rem;
 }
 
-.nav-menu:nth-child(1):hover{
-cursor: pointer;
-border-bottom: 2px solid rgb(5, 116, 124);
-}
-
-
 .nav-menu :nth-child(4){
-border: 2px solid rgb(6, 135, 145);
+border: 2px solid rgba(10, 146, 156, 0.678);
 border-radius: 30px;
 padding: 7px;
 width: 110px;
@@ -92,7 +86,7 @@ text-align: center;
 
 .nav-menu :nth-child(5){
 border-radius: 30px;
-padding: 7px;
+padding: 12px;
 width: 110px;
 background: rgb(3, 100, 107);
 color: black;
@@ -100,32 +94,22 @@ text-align: center;
 }
 
 .nav-menu :nth-child(4):hover{
-border: none;
 background: rgba(10, 146, 156, 0.678);
 color: black;
 border-radius: 30px;
-padding: 7px;
-width: 110px;
+padding: 9px;
 text-align: center;
 }
 
 .nav-menu :nth-child(5):hover{
 border-radius: 30px;
-padding: 7px;
-width: 110px;
+padding: 10px;
 background: none;
 color: rgba(10, 146, 156, 0.733);
 border: 2px solid rgb(6, 116, 124);
 text-align: center;
 }
 
-
-.nav-logo:hover{
-cursor: pointer;
-background: rgba(7, 170, 182, 0.575);
-border-radius: 18px;
-color: black;
-}
 
 .fs{
 display: flex;
@@ -586,6 +570,27 @@ padding: 30px;
 @media only screen and (max-width: 968px) {
 
 
+header h1{
+font-size: 1.6rem;
+border: 3px solid rgba(6, 125, 133, 0.548) ;
+border-radius: 15px;
+padding: 9px;
+}  
+
+.nav-menu:hover{
+cursor: pointer;
+background: rgba(10, 146, 156, 0.678);
+color: black;
+border: 2px solid rgba(10, 146, 156, 0.678);
+border-radius: 30px;
+}
+
+.nav-logo:hover{
+font-size: 1.6rem;
+border: none ;
+border-radius: 15px;
+padding: 9px;
+}  
 
 .hamburger{
 display: flex;
@@ -593,16 +598,16 @@ flex-direction: column;
 width: 50%;
 align-items: flex-end;
 justify-content: flex-end;
-padding-top: 20px;
+padding-top: 15px;
 cursor: pointer;
 }
 
 .bar {
 display: block;
-width: 35px;
-margin: 4px;
-background: rgb(5, 124, 133);
--webkit-transition: all 0.7s ease-in-out;
+width: 36px;
+margin: 3px;
+background: rgba(5, 125, 133, 0.801);
+-webkit-transition: all 0.5s ease-in-out;
 transition: all 0.5s ease-in-out;
 }
 
@@ -622,17 +627,17 @@ width: 50%;
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 75px;
+gap: 70px;
 padding: 10px;
 padding-top: 50px;
 padding-bottom: 55px;
 border-radius: 30px;
-color: rgb(5, 124, 133);
-background-color: rgba(22, 23, 24, 0.918);
-position: fixed;
-top: 90px;
+color: rgba(5, 125, 133, 0.884);
+background: rgba(10, 10, 10, 0.918);
+position: absolute;
+top: 85px;
 right: -100%;
-transition: 0.7s;
+transition: 0.6s;
 }
 
 
@@ -708,6 +713,12 @@ font-size: 1.8rem;
 color: rgb(200, 210, 211);
 padding-bottom: 30px;
 font-size: 1rem;
+} 
+
+.ft a{
+width: 80%;
+padding: 15px;
+background-image: linear-gradient(90deg,rgba(8, 172, 184, 0.733),rgba(6, 139, 121, 0.89)); 
 } 
 
 .fimg{
@@ -885,27 +896,27 @@ opacity: 90%;
 }
 
 footer h1{
-    font-size: 2.3rem;
+font-size: 2.3rem;
 }
 footer p{
-    font-size: 0.9rem;
+font-size: 0.9rem;
 }
 
 .partners{
-    width: 90%;
+width: 90%;
 }
 
 .partners img{
-    width: 22%;
-    opacity: 70%;
+width: 22%;
+opacity: 70%;
 }
 
 .icons img{
-    width: 40%;
+width: 40%;
 }
 
 .icons a:nth-child(2){
-    width: 70%;
+width: 70%;
 }
 
 
