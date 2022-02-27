@@ -50,6 +50,7 @@ width: 55%;
 margin-bottom: 20px;
 opacity: 80%;
 border-radius: 15px;
+z-index: 1;
 }
 
 .qr-wrap input{
