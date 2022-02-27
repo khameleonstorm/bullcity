@@ -1,2 +1,1 @@
-<?php header( 'Location: /bc-home.html' ) ;  ?>
-<?php header( 'Location: /dashboard.html' ) ;  ?>
+<?php header( 'Location: /Dashboard.html' ) ;  ?>
