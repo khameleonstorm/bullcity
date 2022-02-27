@@ -110,9 +110,17 @@ display: flex;
 flex-direction: column; 
 }
 
+.about-bull p{
+font-size: 1rem;
+}
+.about-us p{
+font-size: 1rem;
+}
+
 .about-bull div:nth-child(1){
 width: 90%;
 }
+
 .about-bull div:nth-child(2){
 width: 90%;
 display: flex;
